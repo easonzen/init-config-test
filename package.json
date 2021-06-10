@@ -42,10 +42,13 @@
     "pre-commit": "lint-staged"
   },
   "lint-staged": {
-    "*.{js,jsx,vue}": [
-      "prettier",
+    "src/**/*.{js,jsx,vue}": [
+      "node_modules/.bin/prettier --write",
       "vue-cli-service lint",
       "git add"
+    ],
+    "src/**/*.{css,scss,less,json,html,md,markdown}": [
+      "node_modules/.bin/prettier --write"
     ]
   },
   "config": {

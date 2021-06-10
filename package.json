@@ -39,7 +39,7 @@
   },
   "gitHooks": {
     "commit-msg": "commitlint -e -V",
-    "pre-commit": "lint-staged"
+    "pre-commit": "lint-staged",
   },
   "lint-staged": {
     "{src}/**/*.{js,jsx,vue}": [

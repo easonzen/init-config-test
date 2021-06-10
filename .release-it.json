@@ -4,7 +4,8 @@
     "requireBranch": "main"
   },
   "github": {
-    "release": true
+    "release": true,
+    "skipChecks": true
   },
   "plugins": {
     "@release-it/conventional-changelog": {

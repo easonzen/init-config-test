@@ -1,3 +1,5 @@
+## [0.1.2](https://github.com/easonzen/init-config-test/compare/0.1.1...0.1.2) (2021-06-10)
+
 ## 0.1.1 (2021-06-10)
 
 
